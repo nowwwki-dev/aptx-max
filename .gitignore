@@ -1,0 +1,8 @@
+build/
+AptxMaxApp/build/
+*.idsig
+*.apk
+!releases/*.apk
+local.properties
+.DS_Store
+Thumbs.db
