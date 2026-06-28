@@ -2,7 +2,7 @@
 
 `aptX Max` - небольшое Android-приложение для выбора лучшего доступного A2DP-кодека на подключенных Bluetooth-наушниках через Shizuku.
 
-Приложение не привязано к Xiaomi Buds 5 Pro. Оно читает `BluetoothCodecStatus`, берет список `mCodecsSelectableCapabilities` для каждого подключенного A2DP-устройства и выбирает лучший реально доступный вариант:
+Оно читает `BluetoothCodecStatus`, берет список `mCodecsSelectableCapabilities` для каждого подключенного A2DP-устройства и выбирает лучший реально доступный вариант:
 
 1. явный Lossless-кодек, если прошивка показывает его как отдельный codec/capability;
 2. aptX Adaptive;
